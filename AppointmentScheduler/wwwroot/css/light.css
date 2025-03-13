@@ -1,0 +1,39 @@
+﻿body {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    margin-top: 50px;
+}
+label, .btn-primary {
+    color: black !important;
+}
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+.form-check-label {
+    color: black !important;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.btn-dark {
+    background-color: #212529;
+    color: white;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #212529;
+}

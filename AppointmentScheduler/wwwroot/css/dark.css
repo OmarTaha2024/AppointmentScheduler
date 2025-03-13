@@ -1,0 +1,42 @@
+﻿body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    font-weight: bold;
+    color: white;
+}
+label, .btn-primary {
+    color: white !important;
+}
+
+.form-check-label {
+    color: white !important;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+
+.btn-dark {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+
+.btn-light {
+    background-color: #424242;
+    color: #e0e0e0;
+}
