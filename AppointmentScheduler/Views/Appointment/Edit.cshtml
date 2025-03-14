@@ -3,7 +3,8 @@
 <div class="container">
     <h2>@ViewData["Title"] Appointment</h2>
 
-    <form asp-action="@ViewData["Action"]" method="post" novalidate>
+    <div asp-validation-summary="All" class="alert alert-danger" role="alert"></div>
+    <form asp-action="Edit" method="post" novalidate>
         <input type="hidden" asp-for="Id" />
 
         <div class="form-group mb-3">

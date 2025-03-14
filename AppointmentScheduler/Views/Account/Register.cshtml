@@ -4,6 +4,9 @@
     <div class="card p-4" style="width: 400px;">
         <h2 class="text-center mb-4">Register</h2>
 
+        <!-- Validation Summary (Shows all errors at the top) -->
+        <div asp-validation-summary="All" class="alert alert-danger" role="alert"></div>
+
         <form asp-action="Register" method="post" novalidate>
             <div class="form-group mb-3">
                 <label asp-for="FullName" class="form-label"></label>

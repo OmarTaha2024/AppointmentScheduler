@@ -4,6 +4,8 @@
     <div class="card p-4" style="width: 400px;">
         <h2 class="text-center mb-4">Login</h2>
 
+        <div asp-validation-summary="All" class="alert alert-danger" role="alert"></div>
+
         <form asp-action="Login" method="post" novalidate>
             <div class="form-group mb-3">
                 <label asp-for="Email" class="form-label"></label>
@@ -24,9 +26,5 @@
 
             <button type="submit" class="btn btn-primary w-100">Login</button>
         </form>
-
-        <p class="text-center mt-3">
-            Don't have an account? <a asp-action="Register">Register here</a>
-        </p>
     </div>
 </div>
